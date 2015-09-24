@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2950C2661BB36ED700B5F807 /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2950C2651BB36ED700B5F807 /* DraggableImageView.xib */; settings = {ASSET_TAGS = (); }; };
+		2950C2681BB3702900B5F807 /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950C2671BB3702900B5F807 /* DraggableImageView.swift */; settings = {ASSET_TAGS = (); }; };
 		29EC111A1BB333D80033747C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EC11191BB333D80033747C /* AppDelegate.swift */; };
 		29EC111C1BB333D80033747C /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EC111B1BB333D80033747C /* CardsViewController.swift */; };
 		29EC111F1BB333D80033747C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29EC111D1BB333D80033747C /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2950C2651BB36ED700B5F807 /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
+		2950C2671BB3702900B5F807 /* DraggableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
 		29EC11161BB333D80033747C /* lab5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lab5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EC11191BB333D80033747C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29EC111B1BB333D80033747C /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 		29EC112C1BB3341F0033747C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2950C2651BB36ED700B5F807 /* DraggableImageView.xib */,
+				2950C2671BB3702900B5F807 /* DraggableImageView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -139,6 +145,7 @@
 			files = (
 				29EC11241BB333D80033747C /* LaunchScreen.storyboard in Resources */,
 				29EC11211BB333D80033747C /* Assets.xcassets in Resources */,
+				2950C2661BB36ED700B5F807 /* DraggableImageView.xib in Resources */,
 				29EC111F1BB333D80033747C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29EC111C1BB333D80033747C /* CardsViewController.swift in Sources */,
+				2950C2681BB3702900B5F807 /* DraggableImageView.swift in Sources */,
 				29EC111A1BB333D80033747C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +307,7 @@
 				29EC112A1BB333D80033747C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
